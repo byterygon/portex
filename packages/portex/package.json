@@ -1,6 +1,7 @@
 {
   "name": "@byterygon/portex",
   "version": "0.0.0",
+  "description": "Lightweight bidirectional RPC over MessageChannel with typed procedures, events, abort, progress, and transferable support",
   "type": "module",
   "main": "dist/portex.cjs",
   "module": "dist/portex.js",

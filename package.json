@@ -1,6 +1,7 @@
 {
   "name": "portex",
   "version": "1.0.0",
+  "description": "Portex monorepo",
   "private": true,
   "scripts": {
     "prepare": "husky"
