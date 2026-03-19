@@ -1,0 +1,28 @@
+{
+  "name": "@byterygon/portex",
+  "version": "0.0.0",
+  "type": "module",
+  "main": "dist/portex.cjs",
+  "module": "dist/portex.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/portex.js",
+      "require": "./dist/portex.cjs",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "sideEffects": false,
+  "scripts": {
+    "build": "vite build",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "~5.9.3",
+    "vite": "^8.0.0"
+  }
+}
