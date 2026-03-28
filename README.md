@@ -1,5 +1,7 @@
 # Portex
 
+[![gitcgr](https://gitcgr.com/badge/byterygon/portex.svg)](https://gitcgr.com/byterygon/portex)
+
 > **Portex** turns any `MessageChannel`-compatible transport into a lightweight server:
 > bidirectional RPC, event push, AbortController, typed progress feedback, and transferable support.
 
